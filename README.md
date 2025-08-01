@@ -1,9 +1,36 @@
-# React TypeScript Starter Pack
+# Todo App
+A fully functional and interactive task management app built with React and TypeScript. Users can create, edit, delete, filter, and toggle todos with instant updates reflecting in the UI.
 
-To use this template click `Use this template`
+## 🔗 Demo
+[Live Preview](https://deadslowright.github.io/Todo-App/)
 
-### Available Scripts
+## 📌 Technologies Used
+- React
+- TypeScript
+- Bulma CSS Framework
+- Custom Fetch Client for API
+- React Hooks
+- Vite
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+## 🛠 Getting Started
+Follow these steps to set up the project locally:
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/deadslowright/Todo-App.git
+   cd Todo-App
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the project:
+   ```bash
+   npm start
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Use Ctrl + C (or Cmd + C on macOS) in terminal to stop the dev server.
+
+## ✨ Features
+- 📝 Add, edit, and delete tasks
+- ✅ Mark tasks as completed
+- 📅 Filter tasks by status: all, active, completed
+- 🧹 Clear completed tasks
+- ⚛️ Built with React and Vite
+
